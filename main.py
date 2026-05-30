@@ -1,6 +1,4 @@
-def main():
-    print("Hello from end-to-end-mlops!")
+from mlProject import logger
 
 
-if __name__ == "__main__":
-    main()
+logger.info("Welcome to our custom logging")
