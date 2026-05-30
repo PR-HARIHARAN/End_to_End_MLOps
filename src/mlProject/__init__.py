@@ -14,8 +14,8 @@ logging.basicConfig(
     format = logging_str,
 
     handlers=[
-        logging.FileHandler(log_filepath),
-        logging.StreamHandler(sys.stdout)
+        logging.FileHandler(log_filepath), # writes into a log file
+        logging.StreamHandler(sys.stdout) # shows logs in terminal
     ]
 )
 
